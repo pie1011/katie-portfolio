@@ -263,7 +263,7 @@ const ModernPortfolio = () => {
             {/* Social Links */}
             <div className="flex flex-wrap justify-center items-center gap-6 mb-12">
               <a
-                href="https://katieharshman.com#contact"
+                href="#contact"
                 className={`flex items-center space-x-2 px-6 py-3 rounded-xl font-medium transition-all hover:scale-105 ${
                   darkMode 
                     ? 'bg-gray-800 text-white hover:bg-gray-700' 
@@ -722,122 +722,20 @@ const ModernPortfolio = () => {
             </p>
           </div>
 
-          <div className="max-w-2xl mx-auto">
-            <form 
-              name="contact" 
-              method="POST" 
-              data-netlify="true"
-              className={`rounded-2xl p-8 space-y-6 ${
-                darkMode ? 'bg-gray-800' : 'bg-white shadow-lg'
-              }`}
-            >
-              <input type="hidden" name="form-name" value="contact" />
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className={`block text-sm font-medium mb-2 ${
-                    darkMode ? 'text-gray-200' : 'text-gray-700'
-                  }`}>
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className={`w-full px-4 py-3 rounded-xl border transition-all focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
-                      darkMode 
-                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
-                        : 'bg-gray-50 border-gray-200 text-gray-900 placeholder-gray-500'
-                    }`}
-                    placeholder="Your name"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className={`block text-sm font-medium mb-2 ${
-                    darkMode ? 'text-gray-200' : 'text-gray-700'
-                  }`}>
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className={`w-full px-4 py-3 rounded-xl border transition-all focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
-                      darkMode 
-                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
-                        : 'bg-gray-50 border-gray-200 text-gray-900 placeholder-gray-500'
-                    }`}
-                    placeholder="your.email@example.com"
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="subject" className={`block text-sm font-medium mb-2 ${
-                  darkMode ? 'text-gray-200' : 'text-gray-700'
-                }`}>
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  required
-                  className={`w-full px-4 py-3 rounded-xl border transition-all focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
-                    darkMode 
-                      ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
-                      : 'bg-gray-50 border-gray-200 text-gray-900 placeholder-gray-500'
-                  }`}
-                  placeholder="What would you like to discuss?"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className={`block text-sm font-medium mb-2 ${
-                  darkMode ? 'text-gray-200' : 'text-gray-700'
-                }`}>
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  className={`w-full px-4 py-3 rounded-xl border transition-all focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none ${
-                    darkMode 
-                      ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' 
-                      : 'bg-gray-50 border-gray-200 text-gray-900 placeholder-gray-500'
-                  }`}
-                  placeholder="Tell me about your project or opportunity..."
-                />
-              </div>
-              
-              <button
-                type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-4 px-8 rounded-xl transition-all hover:scale-105 hover:shadow-lg focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-
-          {/* Additional Contact Methods */}
           <div className="flex flex-wrap justify-center gap-6 mt-12">
             <a
-              href="mailto:contact@katieharshman.com"
+              href="https://www.katieharshman.com#contact"
+              target="_blank"
+              rel="noopener noreferrer"
               className={`flex items-center space-x-3 px-6 py-3 rounded-xl font-medium transition-all hover:scale-105 ${
                 darkMode 
-                  ? 'bg-gray-800 text-white hover:bg-gray-700' 
-                  : 'bg-white text-gray-700 hover:bg-gray-50 shadow-lg'
+                  ? 'bg-blue-900 text-blue-300 hover:bg-blue-800' 
+                  : 'bg-blue-100 text-blue-700 hover:bg-blue-200 shadow-lg'
               }`}
             >
               <Mail size={20} />
-              <span>contact@katieharshman.com</span>
+              <span>Contact via katieharshman.com</span>
             </a>
-            
             <a
               href="https://www.linkedin.com/in/pie1011"
               target="_blank"
@@ -865,18 +763,22 @@ const ModernPortfolio = () => {
           <p>&copy; 2025 Katie Harshman. Interactive resume designed to showcase skills and experience.</p>
           <div className="flex justify-center space-x-6 mt-4">
             <a 
-              href="bridge-builder.html" 
+              href="https://www.katieharshman.com/bridge-builder.html" 
               className={`text-sm hover:underline ${
                 darkMode ? 'text-blue-400' : 'text-blue-600'
               }`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Bridge Builder Stories
             </a>
             <a 
-              href="hr-portfolio.html" 
+              href="https://www.katieharshman.com/hr-portfolio.html" 
               className={`text-sm hover:underline ${
                 darkMode ? 'text-blue-400' : 'text-blue-600'
               }`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               HR L&D Samples
             </a>
