@@ -255,9 +255,8 @@ const ModernPortfolio = () => {
                 comfortable juggling diverse priorities while keeping communication clear and workflows efficient.
               </p>
               <p className="mt-4">
-                <b><i>NOTE: This is just a sample resume/portfolio in React and Typescript. For my most up-to-date interactive resume, please visit <a href='https://www.katieharshman.com' target='_blank' rel='noopener noreferrer' className={`text-blue-500 hover:underline ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>www.katieharshman.com</a>
-                  </i></b>
-                  </p>
+                <b><i>NOTE: This is just a sample resume/portfolio in React and Typescript. For my most up-to-date interactive resume, please visit <a href='https://www.katieharshman.com' target='_blank' rel='noopener noreferrer' className={`text-blue-500 hover:underline ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>katieharshman.com</a></i></b>
+              </p>
             </div>
 
             {/* Social Links */}
@@ -341,6 +340,9 @@ const ModernPortfolio = () => {
             }`}>
               Explore a selection of my Project Management, HR Learning & Development, and Web Development work.
             </p>
+               <p className="mt-4">
+                <b><i>NOTE: These are just a few portfolio samples. For my most up-to-date collection, please visit <a href='https://www.katieharshman.com#portfolio' target='_blank' rel='noopener noreferrer' className={`text-blue-500 hover:underline ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>katieharshman.com</a></i></b>
+              </p>
           </div>
 
           {/* Filter Buttons */}
