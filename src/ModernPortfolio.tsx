@@ -254,12 +254,16 @@ const ModernPortfolio = () => {
                 blends project coordination, administrative support, and technical instruction, which means I'm
                 comfortable juggling diverse priorities while keeping communication clear and workflows efficient.
               </p>
+              <p className="mt-4">
+                <b><i>NOTE: This is just a sample resume/portfolio in React and Typescript. For my most up-to-date interactive resume, please visit <a href='https://www.katieharshman.com' target='_blank' rel='noopener noreferrer' className={`text-blue-500 hover:underline ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>www.katieharshman.com</a>
+                  </i></b>
+                  </p>
             </div>
 
             {/* Social Links */}
             <div className="flex flex-wrap justify-center items-center gap-6 mb-12">
               <a
-                href="mailto:contact@katieharshman.com"
+                href="https://katieharshman.com#contact"
                 className={`flex items-center space-x-2 px-6 py-3 rounded-xl font-medium transition-all hover:scale-105 ${
                   darkMode 
                     ? 'bg-gray-800 text-white hover:bg-gray-700' 
@@ -601,7 +605,7 @@ const ModernPortfolio = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
             {/* Formal Education */}
             <div className={`rounded-2xl p-8 transition-all hover:scale-105 ${
               darkMode ? 'bg-gray-800' : 'bg-white shadow-lg'
